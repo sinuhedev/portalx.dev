@@ -33,6 +33,8 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          PUBLIC_TITLE: PortalX.
         run: npm run build prod
         # run: npm run build -- --base=/portalx.dev
 
