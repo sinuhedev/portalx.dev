@@ -34,7 +34,7 @@ jobs:
 
       - name: Build
         env:
-          PUBLIC_TITLE: PortalX.
+          PUBLIC_TITLE: Portal X.
         run: npm run build prod
         # run: npm run build -- --base=/portalx.dev
 
